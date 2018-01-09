@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.entire_page {
+  height: 100vh;
+  background-color: Coral;
+  transition: 0.5s ease-out;
+}
+
+#quote_text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.2em;
+  color: Coral;
+  transition: 0.5s ease-out;
+}
+
+.quote_container {
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 10%;
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40 50;
+  color: Coral;
+  transition: 0.5s ease-out;
+  margin-bottom: 15%;
+}
+
+#quote_author {
+  padding-top: 20px;
+  font-size: 1.5em;
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  color: Coral;
+  transition: 0.5s ease-out;
+
+}
+
+.new_quote_button{
+  position:relative;
+  text-align: right;
+
+}
+
+.quote_button {
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: Coral;
+  outline: none;
+  font-size: 0.85em;
+  padding: 4px 9px 3px 9px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+
+}
+
+.the_quotes {
+  color: Coral;
+}

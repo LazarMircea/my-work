@@ -1,0 +1,179 @@
+google_logo img {
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  text-align: -webkit-left;
+}
+
+body {
+  font-family: arial,sans-serif;
+  overflow-x: hidden;
+}
+
+.container_logo {
+  /*background-color: Pink;*/
+  width: 100%;
+  text-align: center;
+}
+
+.logo_country {
+  color: #4285f4;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: roboto-regular, arial, sans-serif;
+  left: 110px;
+  position: relative;
+  top: -20px;
+  white-space: nowrap;
+}
+
+.padd {
+  padding: 63.5px;
+}
+
+.container_nav {
+  width: 100%;
+}
+
+.container_nav img {
+  opacity: 0.75;
+}
+
+.container_nav img:hover {
+  opacity: 1;
+}
+
+nav {
+  float: right;
+}
+
+header {
+  margin-top: -15px;
+  /*background-color: Aquamarine;*/
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#icon3 img {
+  width: 90%;
+  height: auto;
+  margin-right: -190px;
+  vertical-align: middle;
+}
+
+#icon2 img {
+  width: 80%;
+  height: auto;
+  margin-right: -105px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#icon1 img {
+  vertical-align: middle;
+}
+
+
+li a {
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  padding: 0 5px 0 5px;
+  background-color: #FFF;
+  color: #000;
+  margin: 2px 2px 2px 2px;
+  opacity: 0.75;
+  vertical-align: middle;
+}
+
+li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.container_box {
+  height: 200px;
+  margin-top: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+
+  padding-top: 8px;
+
+}
+
+.search_bar {
+  position: relative;
+  width: 45.8%;
+  margin-left: 357px;
+  padding-left: 16px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+  padding: 5px 9px 0;
+  background-color: #fff;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.search_bar:hover {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+
+.buttons {
+  height: 40px;
+  position: relative;
+  padding: 10px;
+  width: 420px;
+  margin: 20px auto;
+  padding-left: 145px;
+}
+
+.google_search_button {
+  height: 36px;
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 2px 3px 4px 3px;
+  min-width: 54px;
+  padding: 0;
+  text-align: center;
+  width: 123px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google_search_button:hover {
+  color: #000;
+  border-radius: 2px;
+  border: thin solid #757575;
+}
+
+#feel_luck_button {
+  width: 140px;
+}
